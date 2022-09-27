@@ -10,10 +10,10 @@ pipeline {
     }
 
     stages {
-        
+
         stage("Print selected choice"){
             steps {
-                echo 'you selected: ${env.ENV_CHOICE}'
+                echo "you selected: ${env.ENV_CHOICE}"
             }
         }
 
